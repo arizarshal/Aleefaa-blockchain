@@ -1,0 +1,173 @@
+.valid_front{
+background-color: #000000;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 50px;
+width: 100vw;
+text-align: center;
+margin: 0 auto;
+}
+.valid_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+color: white;
+/* border: 1px solid white; */
+padding-left: 100px;
+}
+.valid_text h1{
+    font-size: 46px;
+    font-weight: 700;
+}
+.valid_text p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.valid_text button{
+    background-color: #01feff;
+    border: none;
+    padding: 5px;
+}
+.valid_front_img{
+    /* border: 1px solid white; */
+
+}
+.valid_front_img img{
+    width: 400px;
+    min-height: 300px;
+    max-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid white; */
+    /* margin: 0 auto; */
+}
+
+/* 2nd Section = Total Validators */
+
+.total_validators{
+    width: 80%;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 200px;
+margin: 10vh auto;
+}
+
+.current_validators, .current_superminority{
+    background-color: #01feff;
+    padding: 25px;
+    /* border: 1px solid black; */
+    text-align: center;
+    border-radius: 15px;
+}
+
+.current_validators h3, .current_superminority h3{
+padding-top: 15px;
+}
+
+/* 3rd Section = Validators Rewards */
+
+.rewards{
+    background-color: #000000;
+}
+.rewards_h1{
+    color: white;
+    font-weight: 500;
+    font-size: 46px;
+}
+
+.rewards_grids{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    /* border: 1px solid white; */
+    margin: 10vh auto;
+    width: 90%;
+    /* text-align: center; */
+}
+.rewards_grid{
+    width: 320px;
+    height: 380px;
+    background-color: #01feff;
+    border-radius: 15px;
+margin: 0 auto;
+}
+
+/* Faq's */
+
+.faq_section{
+    width: 90%;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+}
+.faq_h{
+    color: white;
+}
+.faq, .togg{
+    /* border: 1px solid black; */
+    /* width: 90%; */
+    margin: 5px auto;
+    /* background-color: #0c9eda; */
+    color: white;
+    outline: none;
+    padding: 0.7px;
+    z-index: 10;
+    color:white;
+    }
+.down-arr{
+    float: right;
+    font-size: x-large;
+  border: none;
+  border-radius: 50%;
+  }
+  .faq_image{
+      /* border: 1px solid white; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* text-align: center; */
+      justify-content: center;
+  }
+  .faq_image img{
+      width: 300px;
+      min-height: 270px;
+      max-height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+
+  /* Remaining Grids */
+
+  .rem_grids{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 50px;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10vh;
+  }
+  .rem_grid{
+      border-radius: 15px;
+      padding: 20px;
+      background-color: #01feff;
+  }
+  .rem_grid h2{
+      font-size: 40px;
+      font-weight: 500;
+  }
+  .rem_grid p{
+      font-size: 24px;
+      font-weight: 400;
+  }
+  .rem_grid button{
+      padding: 5px;
+/* border: 1px solid black; */
+border-radius: 5px;
+background-color: #01feff;
+  }

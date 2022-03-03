@@ -1,0 +1,33 @@
+.main{
+    width: 100vw;
+    background-color: black;
+    color: white;
+
+}
+.main h2{
+    margin-top: 0;
+}
+.main_div{
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+.main_1, .main_2, .main_3, .main_4, .main_5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+padding-left: 50px;
+/* border: 1px solid white; */
+}
+
+.last{
+    text-align: center;
+    background-color: #01FEFF;
+    padding: 8px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}

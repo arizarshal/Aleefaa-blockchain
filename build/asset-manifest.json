@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6245d4f5.css",
+    "main.js": "/static/js/main.66cb2ea0.js",
+    "static/media/community_447.png": "/static/media/community_447.ebe33d74ad3f04a020bd.png",
+    "static/media/decentralized_577.png": "/static/media/decentralized_577.a9a297af7665162daabf.png",
+    "static/media/valid_front.png": "/static/media/valid_front.451da3b6ca348f3a5cc0.png",
+    "static/media/front_gif_2555.png": "/static/media/front_gif_2555.5f63e44a574e0a317341.png",
+    "static/media/growing_8865.png": "/static/media/growing_8865.7f9f1536c6e2bdd19e6f.png",
+    "static/media/faq_image_4117.png": "/static/media/faq_image_4117.f67227a94008c40c670a.png",
+    "static/media/Reddit_7654.png": "/static/media/Reddit_7654.ac1be2fb4b2b932c97ea.png",
+    "static/media/telegram_58814.png": "/static/media/telegram_58814.35dda84f633d48a04bdd.png",
+    "index.html": "/index.html",
+    "main.6245d4f5.css.map": "/static/css/main.6245d4f5.css.map",
+    "main.66cb2ea0.js.map": "/static/js/main.66cb2ea0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6245d4f5.css",
+    "static/js/main.66cb2ea0.js"
+  ]
+}

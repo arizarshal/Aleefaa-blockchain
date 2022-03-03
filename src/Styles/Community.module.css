@@ -1,0 +1,129 @@
+.community_page{
+background-color: #131313;
+height: 100%;
+}
+
+/* 1st Section */
+.hero_section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-columns: repeat(2, 1fr); */
+    gap: 30px;
+
+}
+.hero_image img{
+    width: 700px;
+    min-height: 432px;
+    max-height: 100%;
+    /* z-index: -1; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid black; */
+}
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: 1px solid white; */
+    color: white;
+    padding-left: 50px;
+    /* z-index: 5; */
+    /* width: 700px; */
+}
+.hero_text h2{
+    font-weight: 700;
+    font-size: 46px;
+}
+.hero_text p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* 2nd Section */
+
+
+.wayfinding{
+    width: 80%;
+    padding: 20px;
+    color: white;
+    /* border: 1px solid white; */
+    margin: 0 auto;
+}
+.wayfinding h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.wayfinding p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* 3rd Section */
+
+
+.social{
+    width: 90%;
+    margin: 10vh auto;
+    /* border: 1px solid white; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+}
+.sc_1, .yt, .disc, .eml{
+    /* border: 1px solid white; */
+background-color: #01FEFF;
+text-align: center;
+}
+.sc_1 img{
+    width: 140px;
+    height: 140px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.yt img{
+    height: 107px;
+}
+.disc img{
+    width: 126px;
+}
+.eml img{
+    width: 119px;
+    height: 84px;
+}
+
+/* 4th Section videos */
+
+.video{
+    width: 80%;
+    margin: 10vh auto;
+    /* border: 1px solid white; */
+    color: white;
+    /* background-image: url('../Images/video_bg_5889.png'); */
+}
+@media screen and (max-width:700px) {
+    .video{
+        width: 100%;
+    }
+}
+.video h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    gap: 100px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    
+}
+.videos iframe{
+    /* border: 1px solid red; */
+    margin-left: 55px;
+}

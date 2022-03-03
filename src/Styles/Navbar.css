@@ -1,0 +1,285 @@
+/* Navbar starts here */
+
+
+
+.navbar0 {
+    top: 0;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    /* display: grid; */
+    /* grid-template-columns: 70px 1.6fr 7fr 0.8fr; */
+    background-color: #111111;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    z-index: 100;
+    opacity:0.7;
+  }
+  .brand-img{
+    align-items: center;
+    text-align: center;
+    /* background-image: url("./innovaciotechnologies-logo.png"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  /* border: 1px solid white; */
+  }
+  .brand-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+  .blk{
+    color: #3498db;
+  }
+  
+  /* Navbar container */
+  .navbar {
+    overflow: hidden;
+    background-color: #0000;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown button{
+    background-color: inherit;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 11px;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn{
+    padding: 10px 17px;
+    font-family: inherit; 
+    /* position: relative; */
+    /* background-color: inherit; */
+    /* Important for vertical align on mobile phones */
+    margin: 0; 
+    /* Important for vertical align on mobile phones */
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: skyblue;
+  }
+  
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3b3838;
+    /* opacity: 0.4; */
+    color: white;
+    min-width: 200px;
+    /* -ms-transform-origin-y: top; */
+    z-index: 1;
+  }
+  .dropdown button:hover{
+    cursor: pointer;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgb(233, 233, 233);
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+  
+    display: block;
+  }
+  
+  .reach button{
+    padding: 3px;
+    width: 90px;
+    background-color: #58C8E1;
+    margin-right: 5px;
+    color: white;
+  border: none;
+  }
+  
+  .hamburger-menu {
+    display: none;
+  }
+  
+  .mobile-menu-link {
+    display: flex;
+  flex-direction: column;
+    position: relative;
+  width: 100vw;  
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+    transition: all 2s linear;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    grid-column: 1/2;
+    z-index: 99;
+  
+  }
+  .mobile-menu-link .dropdown {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(60px, 1fr));
+  }
+  .mobile-menu-link .dropdown:hover{
+    color:skyblue;
+    cursor: pointer;
+  }
+  .mobile-menu-link .dropdown:hover .dropdown-content {
+  display: block;
+  position: relative;
+  }
+  
+  
+  
+  .mobile-menu-link .dropdown, .mobile-menu-link a{
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  
+  }
+  .mobile-menu-link .dropdown-content a{
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+  .mobile-menu-link .dropdown-content a:hover{
+    color: skyblue;
+  }
+  
+  
+  
+  .mobile-menu-link .dropdown .dropbtn, .mobile-menu-link .dropdown button{
+    /* margin: 2px; */
+    color: black;
+  font-weight: bold;
+  font-size: medium;
+  }
+  
+  .mobile-menu-link .dropdown .dropbtn .fa{
+    color: black;
+  }
+
+  
+/* Home Page Responsiveness */
+
+@media (max-width: 1363px){
+
+  .brand-img{
+    grid-column: 1/2;
+  }
+
+  .brand-name{
+    grid-column: 2/4;
+    text-align: center;
+
+  }
+  .hamburger-menu {
+    display: block;
+    font-size: 2.5rem;
+    position: fixed;
+    color: white;
+/* margin-right: 25px; */
+    top: 10px;
+    right: 25px;
+    grid-column: 4/5;
+    text-align: end;
+    z-index: 200;
+    /* position: sticky; */
+ }
+ .navbar0{
+     display: grid;
+  grid-template-columns: 100px 1fr 1fr 1fr;
+
+ }
+  .navbar, .reach{
+    display: none;
+  }
+  /* .brand-name{
+    float: left;
+  } */
+}
+
+
+
+@media screen and (max-width:800px) {
+  /* .brand-img{
+    width: 15vw;
+  } */
+  .brand-name{
+    width: 50vw;
+  }
+  .titles{
+    width: 100%;
+  }
+  .offerings{
+    flex-direction: column;
+  }
+  .off h2{
+    text-align: center;
+  }
+  .connect{
+/* display: flex;   */
+width: 90%;
+/* padding: 5px; */
+}
+.connect button{
+  padding: 10px;
+
+}
+
+.techs{
+  flex-direction: column;
+}
+.smartchain{
+  margin: 1vh auto;
+  width: 80vw;
+}
+
+.sols{
+  margin: 2vh auto;
+  width: 80%;
+}
+.main-content{
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  margin-bottom: 8vh;
+
+}
+
+
+  
+}
+
+
+
+
